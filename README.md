@@ -5,12 +5,16 @@ Multi Video Player is a react component for playing multiple videos at the same 
 ## Installation
 
 Use the following commands:
+```
+# clone the repository
 git clone https://github.com/juanM20/multi-video-player.git
 
+# install dependencies
 npm i
 
+# run the project in dev enviroment
 npm run dev
-
+```
 
 ## Contributing
 
