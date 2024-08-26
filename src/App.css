@@ -10,6 +10,10 @@
   height: 1vh;
 }
 
+.stack {
+  margin-top: 20px;
+}
+
 .videos-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
