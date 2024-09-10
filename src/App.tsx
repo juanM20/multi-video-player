@@ -1,9 +1,9 @@
 import './App.css'
 import { VideoPlayer } from './video-player/VideoPlayer'
-import { FileUploadInput } from './file_updload_input/fileUpdloadInput';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
+import { FileUploadInput } from './file_updload_input/FileUpdloadInput'
+import Stack from '@mui/material/Stack'
+import Button from '@mui/material/Button'
+import Divider from '@mui/material/Divider'
 
 import { useState } from 'react';
 
@@ -13,13 +13,13 @@ function App() {
   const [playBackRate, setPlayBackRate] = useState(1);
 
   const playVideo = () => {
-    console.log('play')
-    setIsPlaying(true)
+    console.log('play');
+    setIsPlaying(true);
   }
 
   const pauseVideo = () => {
-    console.log('pause')
-    setIsPlaying(false)
+    console.log('pause');
+    setIsPlaying(false);
   }
 
   const setPlayBackRateToQuarter = () => {
@@ -58,8 +58,8 @@ function App() {
         <div className='videos-container'>
           <VideoPlayer play={isPlaying} playBackRate={playBackRate}></VideoPlayer>
           <VideoPlayer play={isPlaying} playBackRate={playBackRate}></VideoPlayer>
-          <VideoPlayer play={isPlaying} playBackRate={playBackRate}></VideoPlayer>
-          <VideoPlayer play={isPlaying} playBackRate={playBackRate}></VideoPlayer>
+          {/* <VideoPlayer play={isPlaying} playBackRate={playBackRate}></VideoPlayer>
+          <VideoPlayer play={isPlaying} playBackRate={playBackRate}></VideoPlayer> */}
         </div>
       </div>
     </>
